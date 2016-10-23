@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+}
+h1 {
+	color: #0000e6;
+	font-size: 250%;
+}
+div.head {
+   padding: 2em;
+   color: gray;
+   background-color: white;
+   background-image: url("headlogo.jpeg");
+   background-repeat: no-repeat;
+   background-position: right;
+   clear: left;
+   text-align: center;
+}
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #cce5ff;
+}
+div.w3-content{
+    position: center;
+    text-align: center;
+}
+h2 {
+	font-family: "Times New Roman";
+	color: gray;
+	text-align:center;
+}
+p.WelcomeP {
+	color: gray;
+	font-size: 140%;
+	font-family: arial;
+	text-align:center;
+}
+.parallax {
+    background: url(bg2.jpg) repeat fixed 100%;
+}
+.glyphicon.glyphicon-info-sign{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
